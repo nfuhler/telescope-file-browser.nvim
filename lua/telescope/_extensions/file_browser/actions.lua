@@ -592,6 +592,7 @@ fb_actions.open = function(prompt_bufnr)
       :new({
         command = cmd,
         args = { selection:absolute() },
+		detached = true,
       })
       :start()
   end
