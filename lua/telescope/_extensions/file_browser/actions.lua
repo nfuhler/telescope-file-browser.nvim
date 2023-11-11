@@ -596,7 +596,7 @@ fb_actions.open = function(prompt_bufnr)
       })
       :start()
   end
-  actions.close(prompt_bufnr)
+--  actions.close(prompt_bufnr)
 end
 
 --- Goto parent directory in |telescope-file-browser.picker.file_browser|.
